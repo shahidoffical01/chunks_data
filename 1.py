@@ -2,7 +2,7 @@ text="This is the main data from where i tyoe this fro nothing do to us to do th
 
 chunks=[]
 
-chunk_size= 20
+chunk_size= 25
 
 for i in range(0, len(text), chunk_size):
     chunk= text[i:i + chunk_size]
