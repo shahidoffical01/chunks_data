@@ -2,7 +2,7 @@ text="The website is warning you:We will not display it again. This means once y
 
 chunks=[]
 
-chunk_size= 20
+chunk_size= 25
 
 for i in range(0, len(text), chunk_size):
     chunk= text[i:i + chunk_size]
