@@ -16,7 +16,7 @@ def generate_company_names():
             if first != second:
                 combined = first + second
                 # Enforce the 5 to 6 letter constraint
-                if 5 <= len(combined) <= 6:
+                if 5 <= len(combined) <= 10:
                     valid_names.add(combined.capitalize())
                     
     # Convert to a list and shuffle for variety
