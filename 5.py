@@ -1,7 +1,7 @@
 from itertools import zip_longest
 
 text = "This iis for nothis for the reason of what we are doing"
-chunk_size = 22
+chunk_size = 23
 
 # The "magic" zip_longest trick
 # [iter(text)] * chunk_size creates a list of 32 references to the SAME iterator
