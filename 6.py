@@ -41,7 +41,7 @@ def chunk_generator(iterable: Iterable, chunk_size: int) -> Generator[tuple, Non
 if __name__ == "__main__":
     # --- Example Usage ---
     sample_text = "This is for nothing for the reason of what we are doing"
-    size = 23
+    size = 25
     
     print("--- zip_longest Method ---")
     for i, chunk in enumerate(chunk_string(sample_text, size)):
