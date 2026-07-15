@@ -2,7 +2,7 @@ from chunking_tools import chunk_string, chunk_generator
 
 # Chunking Strings
 text = "Supercalifragilisticexpialidocious"
-print(chunk_string(text, 16))
+print(chunk_string(text, 18))
 # Output: ['Supercalif', 'ragilistic', 'expialidoc', 'ious']
 
 # Chunking standard iterables without padding
